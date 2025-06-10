@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "code_rag"
+version = "0.1.0"
+description = "C# Code Retrieval-Augmented Generation (RAG) system"
+authors = [
+    { name="r1proto" }
+]
+dependencies = [
+    "tree-sitter",
+    "torch",
+    "faiss-cpu",
+    "rank_bm25",
+    "pytest"
+]
+
+[tool.setuptools]
+packages = ["code_rag"]
