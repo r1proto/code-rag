@@ -1,0 +1,5 @@
+tree-sitter
+torch
+faiss-cpu
+rank_bm25
+pytest
